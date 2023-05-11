@@ -22,8 +22,8 @@ body{
 /*Main box*/
 
 .container{
-    width: 550px;
-    height: 350px;
+    width: 50%;
+    height: 45%;
     border-radius: 10px;
     background-color: aqua;
     margin: 100px 0 80px 0;
@@ -35,8 +35,8 @@ body{
 
 .logo_box{
     background-color: var(--color-white);
-    height: 350px;
-    width: 230px;
+    height: auto;
+    width: 40%;
     border-radius: 10px 0 0 10px;
     display: flex;
     justify-content: center;
@@ -44,8 +44,8 @@ body{
 
 .info_box{
     background-color: var(--color-soft-lighblue);
-    height: 350px;
-    width: 320px;
+    height: auto;
+    width: 60%;
     border-radius: 0 10px 10px 0;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ body{
 .info_box h1{
     font-size: var(--font-size-extraLarge);
     text-align: center;
-    margin: 12px 0 12px 0;
+    /* margin: 12px 0 12px 0; */
 }
 
 #title, #description{
@@ -71,8 +71,8 @@ body{
 /*User image styles*/
 
 #user{
-    width: 180px;
-    height: 170px;
+    width: 65%;
+    height: 50%;
     margin: 80px 0;
     border-radius: 50%;
 }
